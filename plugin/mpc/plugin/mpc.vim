@@ -13,3 +13,6 @@ function! OpenMPC()
 
   call mpc#DisplayPlaylist()
 endfunction
+
+command! MpcBrowser call OpenMPC()
+command! TogglePlayback   call mpc#TogglePlayback()
